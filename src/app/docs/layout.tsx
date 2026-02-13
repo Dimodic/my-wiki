@@ -1,7 +1,7 @@
 import { source } from '@/lib/source';
 import { DocsLayout } from 'fumadocs-ui/layouts/docs';
 import { baseOptions } from '@/lib/layout.shared';
-import { RootToggle } from 'fumadocs-ui/components/root-toggle';
+import { RootToggle } from 'fumadocs-ui/components/layout/root-toggle';
 import { LayoutDashboard, BookOpen } from 'lucide-react';
 
 export default function Layout({ children }: { children: React.ReactNode }) {
